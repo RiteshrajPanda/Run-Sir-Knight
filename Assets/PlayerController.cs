@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
 
     void Roll()
 {
-    if (Input.GetKeyDown(KeyCode.LeftShift) && !isRolling) // Removed isGrounded
+    if (Input.GetKeyDown(KeyCode.LeftAlt) && !isRolling) // Removed isGrounded
     {
         isRolling = true;
         animator.SetTrigger("roll");
